@@ -16,6 +16,10 @@
 		F09BEF892C0AAE8000C49C07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09BEF882C0AAE8000C49C07 /* Assets.xcassets */; };
 		F09BEF8C2C0AAE8000C49C07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09BEF8B2C0AAE8000C49C07 /* Preview Assets.xcassets */; };
 		F0C893222C0D19F60059A0B0 /* OrderTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C893212C0D19F60059A0B0 /* OrderTypeView.swift */; };
+		F0C893252C0D4CA40059A0B0 /* CarrouselItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C893242C0D4CA40059A0B0 /* CarrouselItemView.swift */; };
+		F0C893272C0D52580059A0B0 /* CarrouselTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C893262C0D52580059A0B0 /* CarrouselTabView.swift */; };
+		F0C8932C2C0D58E00059A0B0 /* StoreItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C8932B2C0D58E00059A0B0 /* StoreItemView.swift */; };
+		F0C8932E2C0D5CE60059A0B0 /* StoresContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C8932D2C0D5CE60059A0B0 /* StoresContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		F09BEF882C0AAE8000C49C07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F09BEF8B2C0AAE8000C49C07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F0C893212C0D19F60059A0B0 /* OrderTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTypeView.swift; sourceTree = "<group>"; };
+		F0C893242C0D4CA40059A0B0 /* CarrouselItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselItemView.swift; sourceTree = "<group>"; };
+		F0C893262C0D52580059A0B0 /* CarrouselTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrouselTabView.swift; sourceTree = "<group>"; };
+		F0C8932B2C0D58E00059A0B0 /* StoreItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemView.swift; sourceTree = "<group>"; };
+		F0C8932D2C0D5CE60059A0B0 /* StoresContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,8 @@
 				F00DB30A2C0C198E0015CA26 /* Model */,
 				F09BEF922C0AB1EA00C49C07 /* NavigationBar */,
 				F00DB3072C0BE5820015CA26 /* GridView */,
+				F0C893232C0D4C520059A0B0 /* CarrouselView */,
+				F0C893282C0D58880059A0B0 /* StoresView */,
 				F09BEF882C0AAE8000C49C07 /* Assets.xcassets */,
 				F09BEF8A2C0AAE8000C49C07 /* Preview Content */,
 			);
@@ -112,6 +122,24 @@
 				F09BEF862C0AAE7F00C49C07 /* ContentView.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		F0C893232C0D4C520059A0B0 /* CarrouselView */ = {
+			isa = PBXGroup;
+			children = (
+				F0C893262C0D52580059A0B0 /* CarrouselTabView.swift */,
+				F0C893242C0D4CA40059A0B0 /* CarrouselItemView.swift */,
+			);
+			path = CarrouselView;
+			sourceTree = "<group>";
+		};
+		F0C893282C0D58880059A0B0 /* StoresView */ = {
+			isa = PBXGroup;
+			children = (
+				F0C8932D2C0D5CE60059A0B0 /* StoresContainerView.swift */,
+				F0C8932B2C0D58E00059A0B0 /* StoreItemView.swift */,
+			);
+			path = StoresView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +216,12 @@
 				F09BEF872C0AAE7F00C49C07 /* ContentView.swift in Sources */,
 				F00DB30E2C0C1AA80015CA26 /* DataSourceMock.swift in Sources */,
 				F0C893222C0D19F60059A0B0 /* OrderTypeView.swift in Sources */,
+				F0C8932E2C0D5CE60059A0B0 /* StoresContainerView.swift in Sources */,
+				F0C893252C0D4CA40059A0B0 /* CarrouselItemView.swift in Sources */,
+				F0C8932C2C0D58E00059A0B0 /* StoreItemView.swift in Sources */,
 				F00DB3092C0BE5AC0015CA26 /* OrderTypeGridView.swift in Sources */,
 				F09BEF852C0AAE7F00C49C07 /* _4_ChefDelivery_Alura_SwftUIApp.swift in Sources */,
+				F0C893272C0D52580059A0B0 /* CarrouselTabView.swift in Sources */,
 				F005279B2C0B7FF3009DBA3F /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
