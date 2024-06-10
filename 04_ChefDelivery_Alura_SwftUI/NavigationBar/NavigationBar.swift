@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationBar: View {
+struct NavigationBarView: View {
     var body: some View {
         HStack{
             Spacer()
@@ -32,7 +32,7 @@ struct NavigationBar: View {
 
 
 #Preview(traits: .sizeThatFitsLayout) {
-    NavigationBar()
+    NavigationBarView()
 }
 
 /*#Preview {
