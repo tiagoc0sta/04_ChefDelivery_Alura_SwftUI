@@ -48,9 +48,9 @@ struct StoreDetailView: View {
                     .padding()
                 
                 ForEach(store.products) { product in
-                    NavigationLink {
-                        ProductDetailView(product: product)
-                    } label: {
+                    
+                    
+                    
                         HStack(spacing: 8){
                             VStack(alignment: .leading, spacing: 8){
                                 Text(product.name)
@@ -74,9 +74,6 @@ struct StoreDetailView: View {
                         }
                         .padding()
                         .foregroundColor(.black)
-                    }
-
-                    
                     
                 }
             }
